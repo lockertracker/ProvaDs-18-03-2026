@@ -1,0 +1,32 @@
+Document
+└── html
+    ├── head
+    │   ├── meta (charset)
+    │   ├── meta (viewport)
+    │   ├── title
+    │   └── link (CSS)
+    │
+    └── body
+        ├── header
+        │   └── h1 (Título da página)
+        │
+        ├── main
+        │   ├── section (#sensores)
+        │   │   ├── div (.card#sensor-temp)
+        │   │   │   ├── h2 (Temperatura)
+        │   │   │   ├── p (.valor)
+        │   │   │   └── p (.status)
+        │   │   │
+        │   │   ├── div (.card#sensor-umidade)
+        │   │   │   ├── h2 (Umidade)
+        │   │   │   ├── p (.valor)
+        │   │   │   └── p (.status)
+        │   │   │
+        │   │   ├── div (.card#sensor-pressao)
+        │   │   │   ├── h2 (Pressão)
+        │   │   │   ├── p (.valor)
+        │   │   │   └── p (.status)
+        │   │
+        │
+        └── footer
+            └── p (Rodapé)
